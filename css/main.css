@@ -932,7 +932,7 @@ a {
           justify-content: center;
 }
 
-.button-send__submit {
+.submit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
