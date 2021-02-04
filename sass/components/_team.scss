@@ -5,9 +5,9 @@
     width: 270px;
 
     background-color: $primary-white-color;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+    font-weight: $primary-font-weight;
+    font-size: $secondary-font-size;
+    line-height: $team-text-line-height;
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -23,7 +23,7 @@
     margin-bottom: 10px;
 
     font-weight: $special-font-weight;
-    font-size: 16px;
+    font-size: $secondary-font-size;
   }
 
   &__text {

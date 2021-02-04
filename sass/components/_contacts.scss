@@ -15,7 +15,7 @@
     color: $text-color;
     fill: currentColor;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transit(color);
   }
 
   &__header-item:hover,
@@ -34,5 +34,16 @@
   &__footer-item:not(:last-child) {
     margin-bottom: 9px;
     margin-right: auto;
+  }
+
+  &__footer-text {
+    color: $another-color;
+
+    @include transit(color);
+  }
+
+  &__footer-text:hover,
+  &__footer-text:focus {
+    color: $accent-color;
   }
 }

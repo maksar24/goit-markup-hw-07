@@ -2,9 +2,9 @@
   color: $primary-text-color;
   font-family: $secondary-font-family;
 
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-weight: $secondary-font-weight;
+  font-size: $logo-font-size;
+  line-height: $logo-line-height;
 
   &__header {
     margin-right: 93px;
