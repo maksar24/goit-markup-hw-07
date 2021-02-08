@@ -35,8 +35,7 @@
     height: 40px;
     padding-left: 42px;
 
-    @include transit(border);
-    @include transit(outline);
+    @include transit(border, outline);
   }
 
   &__frame:focus {
@@ -62,8 +61,7 @@
 
     resize: none;
 
-    @include transit(border);
-    @include transit(outline);
+    @include transit(border, outline);
   }
 
   &__textarea:placeholder-shown {
@@ -119,7 +117,8 @@
     opacity: 0;
   }
 
-  &__old-checkbox:focus &__policy-text::before {
+  &__policy-text::before:focus,
+  &__policy-text:focus {
     border-color: $accent-color;
   }
 

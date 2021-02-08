@@ -22,9 +22,7 @@
     line-height: $radio-button-line-height;
     letter-spacing: 0.03em;
 
-    @include transit(color);
-    @include transit(background-color);
-    @include transit(box-shadow);
+    @include transit(color, background-color, box-shadow);
   }
 
   &__filter:hover,

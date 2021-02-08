@@ -18,8 +18,7 @@
     color: $link-color;
     fill: currentColor;
 
-    @include transit(fill);
-    @include transit(background-color);
+    @include transit(fill, background-color);
   }
 
   &__social:focus,
@@ -58,8 +57,7 @@
     color: $link-color;
     fill: currentColor;
 
-    @include transit(color);
-    @include transit(border-color);
+    @include transit(color, border-color);
   }
 
   &__customer:focus,
